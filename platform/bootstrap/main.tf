@@ -1,5 +1,5 @@
 ###
-# Generate randon id to append to every created resource name
+# Generate random id to append to every created resource name
 ###
 resource "random_id" "this" {
   byte_length = 3
